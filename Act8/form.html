@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número de cuenta</title>
+</head>
+<body>
+    <form action="./conexion.php" method="POST">
+        <fieldset style="width: 400px;">
+            <legend><strong>Validación de alumno</strong></legend>
+            <label>Ingresa tu número de cuenta:
+                <br>
+                <input type="number" name="num_cuenta" min='111111111' max='330000000' required>
+            </label><br><br>
+            <input type="submit">
+        </fieldset>
+    </form>    
+</body>
+</html>
